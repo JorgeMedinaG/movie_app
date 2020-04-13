@@ -2,19 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:movie_app/widgets/small_card.dart';
 
 class MovieHorizontal extends StatelessWidget {
-  const MovieHorizontal({Key key}) : super(key: key);
+
+  final double height;
+  final double viewportFraction;
+  MovieHorizontal( { @required this.height, @required this.viewportFraction }) ;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 150.0,
+        height: height,
         child:  PageView.builder(
           itemCount: 56,
-          pageSnapping: true,
+          pageSnapping: false,
           scrollDirection: Axis.horizontal,
           controller: PageController(
             keepPage: true,
-            viewportFraction: 0.7,
+            viewportFraction: viewportFraction,
             initialPage: 1
           ),
           itemBuilder:(BuildContext context, int i ) {

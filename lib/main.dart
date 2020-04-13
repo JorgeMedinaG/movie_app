@@ -7,11 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Movie Friend',
+      color: Colors.black,
+      title: 'TV Friend',
       debugShowCheckedModeBanner: false,
       initialRoute: 'home',
       routes: getRoutes(),
-      
     );
   }
 }

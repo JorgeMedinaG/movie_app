@@ -14,7 +14,8 @@ class SmallCard extends StatelessWidget {
               borderRadius: BorderRadius.only(topRight : Radius.circular(20.0), bottomLeft : Radius.circular(20.0)),
               child: FadeInImage(
                     fit: BoxFit.fill,
-                    image: NetworkImage("https://www.infobae.com/new-resizer/NAslJcxDO6HxPs_HmAjMvLJ2DyU=/750x0/filters:quality(100)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/AERXHKDICVBOXNJF4EJE2RXYJ4.jpg"),
+                    image: NetworkImage("https://pulpfictioncine.com/download/multimedia.normal.a1078dc7561a9f2b.6176656e676572735f6e6f726d616c2e6a706567.jpeg"),
+                    // https://www.reporteindigo.com/wp-content/uploads/2019/04/Avengers-Endgame-2019-Desktop-Movie-Wallpapers-HD-4-1-660x413.jpg
                     placeholder: NetworkImage("https://i.pinimg.com/originals/a2/dc/96/a2dc9668f2cf170fe3efeb263128b0e7.gif"),
                   ),
              

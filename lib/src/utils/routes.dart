@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:movie_app/pages/home_screen.dart';
+import 'package:movie_app/src/pages/home_screen.dart';
 
 
 
